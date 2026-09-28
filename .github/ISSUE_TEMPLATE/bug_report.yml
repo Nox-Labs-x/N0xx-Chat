@@ -1,0 +1,42 @@
+name: Bug report
+description: Something in the app isn't working right
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! **Don't post room codes or invite links here.** Issues are public.
+        Security problems go to the Security tab → *Report a vulnerability* instead.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Join a room
+        2. Turn on screen share
+        3. ...
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: "Windows: Settings → Apps → noxx"
+      placeholder: "0.4.0"
+  - type: dropdown
+    id: os
+    attributes:
+      label: System
+      options: [Windows 11, Windows 10, macOS, Linux, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Screenshots help a lot (crop out any room codes).
