@@ -17,14 +17,17 @@ I got tired of chat apps that sit at 500 MB of RAM doing nothing, so I made my o
 is a few MB, it idles at basically 0% CPU, and in calls your graphics card does the video work
 instead of your CPU.
 
-It's end-to-end encrypted, there are no accounts, and nothing gets stored anywhere.
+It's end-to-end encrypted and messages aren't stored anywhere. Servers can have you sign in, so
+people know it's really you, but even the server can't read what you say.
 
 ### Features
 
 <img src="docs/profile.png" width="260" align="right" alt="A profile card">
 
 - Chat with replies, reactions, edits, spoilers and **disappearing messages**
-- Voice with mute, deafen, a call timer and per-person volume (right click someone)
+- Voice with mute, deafen, **push to talk** (works while you're in a game), a call timer and
+  per-person volume (right click someone)
+- Notifications for @mentions (or every message, or none)
 - Camera and screen sharing up to **1440p / 60 fps**, with stereo sound for games and music
 - **Point at someone's shared screen.** Everyone watching sees your pointer and clicks.
   Scroll to zoom into a share.
@@ -33,6 +36,8 @@ It's end-to-end encrypted, there are no accounts, and nothing gets stored anywhe
 - Profiles with a picture, colour, status and a short "about me"
 - Rename rooms, switch between them from the side rail, pick your own accent colour
 - Rooms use 4-word codes like `orbit maple sugar velvet` instead of long random links
+- **Accounts on your server:** a verified @username, so nobody can pretend to be you. Whoever runs
+  the server can make invite codes, remove people and reset passwords from inside the app
 
 <br clear="right">
 
@@ -62,7 +67,8 @@ carry over from older versions, and you can uninstall the old "noxx" from *Setti
 
 1. Put in the server link you got from whoever runs your server (something like `https://noxx.tail1234.ts.net`).
    It goes green once it connects.
-2. Pick a name, and a picture in *Settings → My profile* if you like.
+2. If the server uses accounts, sign in, or pick *Create account* (you might need an invite code
+   from whoever runs it). Then pick a name, and a picture in *Settings → My profile* if you like.
 3. Type a room code a friend sent you, or hit **Create a new room**. Codes don't care about capitals
    or spacing, and the first 4 letters of each word are enough.
 4. In a room, **Invite → Copy invite** gives you a message with the code, the server and a link.
@@ -91,7 +97,9 @@ The room code is the encryption key. Messages, names, profiles and call setup ge
 device, so the server can't read anything. Voice and video go straight between you and your
 friends.
 
-Anyone with the code can get in, so only send it to people you actually want there.
+Anyone with the code can get in (and has an account, if the server uses them), so only send it to
+people you actually want there. Accounts don't change the encryption: the server only learns your
+username, never what you say.
 
 Full details: [Privacy Policy](PRIVACY.md).
 
