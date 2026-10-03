@@ -24,17 +24,24 @@ people know it's really you, but even the server can't read what you say.
 
 <img src="docs/profile.png" width="260" align="right" alt="A profile card">
 
-- Chat with replies, reactions, edits, spoilers and **disappearing messages**
+- Chat with replies, reactions, edits, spoilers, quotes and **disappearing messages**
+- **Pictures:** paste, drop or attach one. It's shrunk on your PC first and sent encrypted
+- **Polls** (`/poll Pizza or tacos? | pizza | tacos`), **pinned messages** and **search** (Ctrl+F)
+- Type `@` to mention someone, `:` for emoji and `/` for commands like `/roll 2d6`, `/me` and
+  `/shrug` (Ctrl+/ lists them all)
 - Voice with mute, deafen, **push to talk** (works while you're in a game), a call timer and
   per-person volume (right click someone)
-- Notifications for @mentions (or every message, or none)
+- Notifications for @mentions (or every message, or none), **Do Not Disturb**, and per-room mute
+- **Block** someone: their messages are hidden and you can't hear them. Only you know
 - Camera and screen sharing up to **1440p / 60 fps**, with stereo sound for games and music
 - **Point at someone's shared screen.** Everyone watching sees your pointer and clicks.
   Scroll to zoom into a share.
 - **Built-in screen recorder** (Windows) that saves straight to `Videos\noxx chat` and runs on
   your graphics card
 - Profiles with a picture, colour, status and a short "about me"
-- Rename rooms, switch between them from the side rail, pick your own accent colour
+- Rename rooms, switch between them from the side rail (Alt+↑/↓), pick your own accent colour,
+  text size and 12/24-hour clock. Half-written messages are kept per room
+- Stays in the tray when you close it and can start with your computer (Windows and Mac)
 - Rooms use 4-word codes like `orbit maple sugar velvet` instead of long random links
 - **Accounts on your server:** a verified @username, so nobody can pretend to be you. Whoever runs
   the server can make invite codes, remove people and reset passwords from inside the app
